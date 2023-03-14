@@ -33,18 +33,6 @@ style_duo_accent(
 )
 ```
 
-```{r echo=FALSE}
-library(RefManageR)
-BibOptions(check.entries = FALSE,
-           bib.style = "authoryear",
-           cite.style = "authoryear",
-           style = "markdown",
-           hyperlink = TRUE,
-           dashed = FALSE)
-           #no.print.fields=c("doi", "url", "urldate", "issn"))
-myBib <- ReadBib("rs-sensor.bib", check = FALSE)
-```
-
 ```{r xaringan-all, echo=FALSE}
 library(countdown)
 library(xaringan)
