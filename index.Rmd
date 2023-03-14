@@ -29,7 +29,7 @@ style_duo_accent(
   header_font_google = google_font("Ubuntu"),
   text_font_google   = google_font("Montserrat", "400", "400i"),
   code_font_google   = google_font("Fira Mono"),
-  title_slide_background_image = "img/space.jpg"
+  title_slide_background_image = "img/bantargebang.jpg"
 )
 ```
 
