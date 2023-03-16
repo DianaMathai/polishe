@@ -1,6 +1,6 @@
 ---
-title: "Polishe"
-subtitle: "CASA0023 Remotely Sensing Cities and Environment"  
+title: "Landfill Monitoring Dashboard"
+subtitle: "by PoliShe"  
 author: "Diana Mathai, Sohyun Park, Rahmadita Listianingrum, Yuet Yung Lung"
 date: "2023/03/02 (updated: `r Sys.Date()`)"
 output:
@@ -56,8 +56,10 @@ xaringanExtra::use_progress_bar(color = "#FFC94A", location = "bottom")
 library(fontawesome)
 ```
 
+# Landfill Monitoring
+
 ---
-##Interative Dashboard
+##Interactive Dashboard
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
 
