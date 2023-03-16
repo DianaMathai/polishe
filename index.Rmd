@@ -1,7 +1,7 @@
 ---
 title: "Polishe"
 subtitle: "CASA0023 Remotely Sensing Cities and Environment"  
-author: "Diana Mathai, Park Sohyun, Rahmadita Listianingrum, Yuet Yung Lung"
+author: "Diana Mathai, Sohyun Park, Rahmadita Listianingrum, Yuet Yung Lung"
 date: "2023/03/02 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -55,4 +55,43 @@ xaringanExtra::use_progress_bar(color = "#FFC94A", location = "bottom")
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
 library(fontawesome)
 ```
+
+---
+##Interative Dashboard
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+
+```
+.panelset[
+.panel[.panel-name[Introduction]
+.pull-left[
+**Objective<br/>**
+- Monthly monitoring on the emission and surface temperature of Bantargebang Landfill
+- Monthly environmental impact assessment at and around the landfill site
+- Effective dissemination of information on the latest situation
+
+
+**Website<br/>**
+Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang Landfill'
+
+**Parameters**
+- Methane Emission
+- Surface Temperature
+- Environmental Monitoring 
+]
+
+.pull-right[
+![Official e-Monitoring Portal](img/Jakarta_Portal.png)
+]
+]
+
+.panel[.panel-name[Methods]
+![](img/method_flowchart.png)
+]
+
+.panel[.panel-name[Dataset]
+![](img/data.png)
+]
+
+]
 
