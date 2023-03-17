@@ -26,7 +26,7 @@ style_duo_accent(
   secondary_color = "#FFC94A",
   inverse_header_color = "#1C5174",
   inverse_text_color = "#1C5174",
-  header_font_google = google_font("Lato"),
+  header_font_google = google_font("Ubuntu", "500"),
   text_font_google   = google_font("Montserrat", "400", "400i"),
   code_font_google   = google_font("Fira Mono"),
   title_slide_background_image = "img/bantargebang.jpg"
@@ -168,8 +168,14 @@ class: inverse center middle
 ---
 ## Project Plan
 
-.panelset.sideways[
+.panelset[
 .panel[.panel-name[**Team**]
+
+
+
+]
+
+.panel[.panel-name[**Workflow**]
 
 
 
@@ -258,7 +264,7 @@ class: inverse center middle
 .panelset.sideways[
 .panel[.panel-name[**Workflow**]
 
-graphs
+Put flowchart in this
 
 ]
 
