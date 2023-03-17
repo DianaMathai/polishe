@@ -59,6 +59,17 @@ library(fontawesome)
 # Landfill Methane Emission
 
 ---
+class: inverse center middle
+
+# Problem Identification
+
+---
+class: inverse center middle
+
+# Approach
+
+---
+
 ##Interactive Dashboard
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
@@ -96,6 +107,11 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 ]
 
 ]
+
+---
+class: inverse center middle
+
+# Project Output
 
 ---
 
@@ -144,3 +160,80 @@ The output of this project includes a map of methane emissions from the Bantarge
 
 ]
 
+---
+class: inverse center middle
+
+# Plan
+
+---
+## Project Plan
+
+.panelset.sideways[
+.panel[.panel-name[**Team**]
+
+
+
+]
+
+.panel[.panel-name[**Timeline**]
+
+
+
+]
+
+.panel[.panel-name[**Value for Money**]
+
+
+
+]
+]
+
+---
+class: inverse center middle
+
+# Risk Management
+
+---
+## Risk Management
+
+.panelset.sideways[
+.panel[.panel-name[**Team**]
+
+
+
+]
+
+.panel[.panel-name[**Timeline**]
+
+
+
+]
+
+.panel[.panel-name[**Value for Money**]
+
+
+
+]
+]
+
+---
+class: inverse center middle
+
+# Implementation
+
+---
+## Project Implementation
+
+.panelset.sideways[
+.panel[.panel-name[**Workflow**]
+
+
+
+]
+
+.panel[.panel-name[**ROI**]
+
+
+
+]
+]
