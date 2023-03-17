@@ -106,6 +106,23 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 ![](img/data.png)
 ]
 
+.panel[.panel-name[Model]
+**Methane Emission: LandGEM**
+.pull-left[
+This model is based on a first-order biogas generation model that estimates emission rates for each landfill
+- Assumes 75% of biogas is captured and 10% is oxidised 
+- Depends on:
+  1. Annual reported tonnage of waste
+  2. Default biogas yield per unit waste constant
+  3. Kinetic decay constant
+
+]
+.pull-right[
+![](img/LandGEM.JPG)
+![](img/example_result.JPG)
+]
+]
+
 ]
 
 ---
@@ -118,7 +135,10 @@ class: inverse center middle
 ## Landfill Monitoring Dashboard
 
 The output of this project includes a map of methane emissions from the Bantargebang landfill and an estimation of the total emissions from the site. This information can be used by stakeholders to better understand the extent of the methane emission problem at the landfill and to develop strategies for reducing those emissions.
-
+.pull-left[
+![Example of Dashboard](img/methane.JPG)]
+.pull-right[
+![Example of Dashboard 2](img/methane.JPG)]]
 ---
 
 ## Landfill Monitoring Dashboard
