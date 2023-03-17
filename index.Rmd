@@ -197,19 +197,42 @@ class: inverse center middle
 ## Risk Management
 
 .panelset.sideways[
-.panel[.panel-name[**Team**]
+.panel[.panel-name[**Data acquisition**]
+
+There may be challenges in acquiring reliable satellite data due to poor weather conditions or satellite malfunction. 
+
+Mitigation strategy: Have backup plans in place such as purchasing data from multiple sources and scheduling satellite passes at different times to increase the chance of obtaining good quality data.
+
+
+]
+
+.panel[.panel-name[**Technical**]
+
+The processing of satellite imagery and the estimation of methane emissions requires advanced technical expertise. 
+
+Mitigation strategy: Ensure that the team members responsible for data processing and analysis are highly skilled and trained in the latest techniques and technologies. This is can be ensured in the recruiting process.
+
+]
+
+.panel[.panel-name[**Human resources**]
 
 
 
 ]
 
-.panel[.panel-name[**Timeline**]
+.panel[.panel-name[**Operational**]
 
 
 
 ]
 
-.panel[.panel-name[**Value for Money**]
+.panel[.panel-name[**Financial**]
+
+
+
+]
+
+.panel[.panel-name[**Stakeholders**]
 
 
 
