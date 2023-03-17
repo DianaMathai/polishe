@@ -56,7 +56,7 @@ xaringanExtra::use_progress_bar(color = "#FFC94A", location = "bottom")
 library(fontawesome)
 ```
 
-# Landfill Monitoring
+# Landfill Methane Emission
 
 ---
 ##Interactive Dashboard
@@ -93,6 +93,53 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 
 .panel[.panel-name[Dataset]
 ![](img/data.png)
+]
+
+]
+
+---
+
+## Landfill Monitoring Dashboard
+
+The output of this project includes a map of methane emissions from the Bantargebang landfill and an estimation of the total emissions from the site. This information can be used by stakeholders to better understand the extent of the methane emission problem at the landfill and to develop strategies for reducing those emissions.
+
+---
+
+## Landfill Monitoring Dashboard
+
+.panelset[
+.panel[.panel-name[Usefulness]
+
+1. **Improved public health and environmental outcomes**<br>Reducing methane emissions from landfills can improve air quality, reduce greenhouse gas emissions, and minimize the risk of fires and explosions.
+
+2. **Increased efficiency of methane mitigation strategies**<br>With periodical data on methane emissions, landfill operators can optimize their methane mitigation strategies, which can help to reduce overall emissions.
+
+3. **Reduced costs**<br>By optimizing methane mitigation strategies, landfill operators can reduce the cost of mitigating methane emissions.
+
+]
+
+.panel[.panel-name[Utilisation]
+
+]
+
+.panel[.panel-name[Limitations]
+
+1. **Limited availability of satellite imagery**<br>The project heavily relies on the availability of satellite imagery to monitor methane emissions from the landfill. However, cloud cover and other atmospheric conditions can impact the quality and availability of satellite imagery, which can limit the accuracy of the methane emission estimates.
+
+2. **Limited temporal resolution**<br>The project relies on satellite imagery with limited temporal resolution. Frequent updates are needed to accurately monitor methane emissions from landfills, and more frequent satellite imagery could provide more accurate and up-to-date estimates.
+
+3. **Limited spatial resolution**<br>The spatial resolution of satellite imagery can also limit the accuracy of methane emission estimates, especially in cases where methane emissions are highly localized. Other resources such as aerial imagery which has very high spatial resolution can be added in the future works.
+
+]
+
+.panel[.panel-name[Future Works]
+
+1. **Expanding the analysis to other landfills**<br>This project focused on the Bantargebang landfill in Jakarta, Indonesia. Similar analyses could be conducted for other landfills around Indonesia to better understand the national methane emissions problem from landfills and contribute to national strategic plan to reduce greenhouse gas emission.
+
+2. **Incorporating other data sources**<br>This project used satellite data to estimate methane emissions. Additional data sources, such as ground-based sensors and drone-based imagery, could be incorporated into the analysis to improve the accuracy of methane emission estimates.
+
+3. **Developing predictive models**<br>By analyzing historical data on methane emissions and other relevant factors, predictive models could be developed that could help landfill operators to proactively manage methane emissions and optimize their mitigation strategies.
+
 ]
 
 ]
