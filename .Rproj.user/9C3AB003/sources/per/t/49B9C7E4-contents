@@ -1,0 +1,200 @@
+---
+title: "Landfill Gas Monitoring"
+subtitle: "PoliShe"  
+author: "Diana Mathai, Park Sohyun, Rahmadita Listianingrum, Yuet Yung Lung"
+date: "2023/03/02 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+class: center middle
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#327CA7",
+  secondary_color = "#FFC94A",
+  inverse_header_color = "#1C5174",
+  inverse_text_color = "#1C5174",
+  header_font_google = google_font("Ubuntu"),
+  text_font_google   = google_font("Montserrat", "400", "400i"),
+  code_font_google   = google_font("Fira Mono"),
+  title_slide_background_image = "img/bantargebang.jpg"
+)
+```
+
+```{r xaringan-all, echo=FALSE}
+library(countdown)
+library(xaringan)
+library(xaringanExtra)
+library(knitr)
+hook_source <- knitr::knit_hooks$get('source')
+knitr::knit_hooks$set(source = function(x, options) {
+  x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
+  hook_source(x, options)
+})
+
+xaringanExtra::use_tile_view()
+xaringanExtra::use_broadcast()
+xaringanExtra::use_panelset()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_search(show_icon = TRUE, auto_search = FALSE)
+xaringanExtra::use_progress_bar(color = "#FFC94A", location = "bottom")
+```
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
+
+## "Landfill Gas Monitoring"
+.tr[
+**- **
+]]
+
+---
+
+## Problem
+
+.panelset.sideways[
+.panel[.panel-name[**History**]
+
+Sentinel is the [Earth Observation](https://joint-research-centre.ec.europa.eu/scientific-activities-z/earth-observation_en) mission from the [Copernicus Programme](https://www.copernicus.eu/en/about-copernicus).
+
+Copernicus is the most ambitious Earth Observation programme to date. The European Commission (EC) leads the Copernicus programme, implemented in partnership with the European Space Agency (ESA). The EC is responsible for defining user requirements and managing the Copernicus operational application services. ESA acts as the system architect for the Space Component and coordinates its development.
+
+The Sentinel-1 Mission acquires systematically and provides routinely a large volume of C-band SAR data to
+the Copernicus Marine, Land, Emergency, Climate Change, and Security services, as well as to national services and to the global scientific and commercial user community `r Citep(myBib, "Torres2022COPERNICUSSN")`.
+
+]
+
+.panel[.panel-name[**Bands**]
+
+The Sentinel-1 Mission is implemented through a pair of identical C-band SAR satellites comprising the current Sentinel-1A and -1B units, launched in 2014 and 2016, respectively `r Citep(myBib, "Torres2022COPERNICUSSN")`.
+
+Sentinel-1 has 12 bands
+
+
+
+]
+
+.panel[.panel-name[**Output**]
+
+The near-term data continuity is ensured by the Sentinel-1C and -1D units. The launch of Sentinel-1C is foreseen for the end of 2022. Sentinel-1C/D is based upon the design of Sentinel-1A/B, but with further improvements, especially for the already remarkable radiometric stability and accuracy [2]. In addition, an Automated Identification System (AIS) payload will be implemented to support operational maritime surveillance, among others `r Citep(myBib, "Torres2022COPERNICUSSN")`.
+
+]
+]
+
+---
+
+## Approach
+
+.panelset.sideways[
+.panel[.panel-name[**History**]
+
+Sentinel is the [Earth Observation](https://joint-research-centre.ec.europa.eu/scientific-activities-z/earth-observation_en) mission from the [Copernicus Programme](https://www.copernicus.eu/en/about-copernicus) `r Citep(myBib, "Sentinel2MissionsSentinel")`
+
+]
+
+.panel[.panel-name[**Bands**]
+
+Sentinel has 12 bands
+
+]
+
+.panel[.panel-name[**Output**]
+
+The output of this 
+
+]
+]
+
+---
+
+## Output
+
+.panelset.sideways[
+.panel[.panel-name[**Sentinel-3**]
+
+The main objective of the SENTINEL-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface colour with high accuracy and reliability to support ocean forecasting systems, environmental monitoring and climate monitoring. The mission definition is driven by the need for continuity in provision of ERS, ENVISAT and SPOT vegetation data, with improvements in instrument performance and coverage.
+
+The SENTINEL-3 mission is jointly operated by ESA and EUMETSAT to deliver operational ocean and land observation services.
+
+The spacecraft carries four main instruments:
+- OLCI: Ocean and Land Colour Instrument
+- SLSTR: Sea and Land Surface Temperature Instrument
+- SRAL: SAR Radar Altimeter
+- MWR: Microwave Radiometer
+
+]
+
+.panel[.panel-name[**Sentinel-4**]
+
+The main objective of the Sentinel-4 mission is to monitor key air quality trace gases and aerosols over Europe in support of the Copernicus Atmosphere Monitoring Service (CAMS) at high spatial resolution and with a fast revisit time.
+
+The mission is part of the European Earth Observation Programme "Copernicus" which is run by the European Union together with the European Space Agency (ESA) in ccoperation with the European Environment Agency (EEA).
+
+The target species of the SENTINEL -4 mission include the key air quality parameters NO2 (nitrogen dioxide), O3 (ozon), SO2 (sulfur dioxide), HCHO (formaldehyde), CHOCHO (glyoxal), and aerosols. Complementarily, the Low Earth Orbiting (LEO) missions S5 and S5p will deliver the S4 target species and additionally CO (carbon monoxide), CH4 (methane), and stratospheric O3 (ozone)with global daily coverage for climate, air quality, and ozone/surface UV applications.
+
+]
+
+.panel[.panel-name[**Sentinel-5**]
+
+The Sentinel-5 mission is part of the European Earth Observation Programme "Copernicus" which is a coordinated and managed by the European Commission (EC). The space component of the Copernicus observation infrastructure is developed under the aegis of the European Space Agency (ESA).
+
+Sentinel-5 is focused on air quality and composition-climate interaction with the main data products being O3, NO2, SO2, HCHO, CHOCHO and aerosols. Additionally Sentinel-5 will also deliver quality parameters for CO, CH4, and stratospheric O3 with daily global coverage for climate, air quality, and ozone/surface UV applications.
+
+The Sentinel-5 mission consists of high resolution spectrometer system operating in the ultraviolet to shortwave infrared range with 7 different spectral bands: UV-1 (270-300nm), UV-2 (300-370nm), VIS (370-500nm), NIR-1 (685-710nm), NIR-2 (745-773nm), SWIR-1 (1590-1675nm) and SWIR-3 (2305-2385nm). The instrument will be carried on the MetOp-SG A satellite.
+
+]
+
+.panel[.panel-name[**Sentinel-5P**]
+
+The Copernicus Sentinel-5 Precursor mission is the first Copernicus mission dedicated to monitoring our atmosphere. Copernicus Sentinel-5P is the result of close collaboration between ESA, the European Commission, the Netherlands Space Office, industry, data users and scientists. The mission consists of one satellite carrying the TROPOspheric Monitoring Instrument (TROPOMI) instrument. The TROPOMI instrument was co-funded by ESA and The Netherlands.
+
+The main objective of the Copernicus Sentinel-5P mission is to perform atmospheric measurements with high spatio-temporal resolution, to be used for air quality, ozone & UV radiation, and climate monitoring & forecasting.
+
+The satellite was successfully launched on 13 October 2017 from the Plesetsk cosmodrome in Russia.
+
+]
+
+.panel[.panel-name[**Sentinel-6**]
+
+With global mean sea level rising because of climate change, Copernicus Sentinel-6 Michael Freilich is the next radar altimetry reference mission to extend the legacy of sea-surface height measurements, until at least 2030.
+
+Sentinel-6 is a collaborative Copernicus mission, implemented and co-funded by the European Commission, ESA, EUMETSAT and the USA, through NASA and the National Oceanic and Atmospheric Administration (NOAA).
+
+]
+]
+
+---
+
+## Plan
+
+---
+
+## Risk Management
+
+---
+class: inverse center middle
+
+# Thanks!
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan) by<br>[**Yihui Xi**](https://yihui.org)<br>
+[**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) and
+[**xaringanExtra**](https://github.com/gadenbuie/xaringanExtra) by<br>[**Garrick Aden Buie**](https://www.garrickadenbuie.com)
+
+This slide is inspired by and adapted from<br>[**Dr Andrew Maclachlan's lecture**](https://andrewmaclachlan.github.io/CASA0023-lecture-2/#1)
+
+---
