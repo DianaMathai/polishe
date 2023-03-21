@@ -30,7 +30,7 @@ style_duo_accent(
   text_font_google   = google_font("Montserrat", "400", "400i"),
    text_font_size = "1rem",
   code_font_google   = google_font("Fira Mono"),
-  title_slide_background_image = "img/bantargebang.jpg"
+  title_slide_background_image = "img/bantargebang.jpeg"
 )
 ```
 
@@ -279,11 +279,68 @@ class: inverse center middle
 ## Landfill Monitoring Dashboard
 
 The output of this project includes a map of methane emissions from the Bantargebang landfill and an estimation of the total emissions from the site. This information can be used by stakeholders to better understand the extent of the methane emission problem at the landfill and to develop strategies for reducing those emissions.
-.pull-left[
-![Example of Dashboard](img/methane.JPG)]
-.pull-right[
-![Example of Dashboard 2](img/methane.JPG)]]
+
+**Homepage**
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/initial-page.png')
+```
+
+.small[Source:[Global Methane](https://www.globalmethane.org/methane-emissions-data.aspx)
+]
+
 ---
+
+## Landfill Monitoring Dashboard
+
+**Methane Emission Map**
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('img/emission-map.png')
+```
+
+.small[Source: [Global Methane](https://www.globalmethane.org/methane-emissions-data.aspx)]
+
+---
+
+## Landfill Monitoring Dashboard
+
+**Methane Emission Charts**
+
+```{r echo=FALSE, out.width='75%', fig.align='center'}
+knitr::include_graphics('img/site-performance.png')
+```
+
+.small[Source: [Global Methane](https://www.globalmethane.org/methane-emissions-data.aspx)]
+
+---
+
+## Landfill Monitoring Dashboard
+
+**Surface Temperature Map**
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('img/temperature.png')
+```
+
+.small[Source::[Ventusky](https://www.ventusky.com/?p=-6.23;106.99;8&l=temperature-2m)
+]
+
+---
+
+## Landfill Monitoring Dashboard
+
+**Vegetation Health Index**
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('img/vegetation.png')
+```
+
+.small[Source::[ESRI](https://www.arcgis.com/apps/dashboards/3be2f5f38d494799b3249eb726020d02)
+]
+
+---
+
 
 ## Landfill Monitoring Dashboard
 
@@ -299,6 +356,10 @@ The output of this project includes a map of methane emissions from the Bantarge
 ]
 
 .panel[.panel-name[Utilisation]
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('img/utilisation.png')
+```
 
 ]
 
@@ -363,7 +424,9 @@ class: inverse center middle
 .panel[.panel-name[**Value for Money**]
 
 In this project we will use open source software and free data. So our budget will be **£278,094** for human resources and **£5,000** for one month capacity building. So the total budget for our project is **£283,094**
-![](img/cost.png)
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('img/cost.png')
+```
 
 ]
 ]
@@ -379,50 +442,61 @@ class: inverse center middle
 .panelset.sideways[
 .panel[.panel-name[**Data acquisition**]
 
-There may be challenges in acquiring reliable satellite data due to poor weather conditions or satellite malfunction. 
+**Risk**<br>
+There may be challenges in acquiring reliable satellite data due to poor weather conditions or satellite malfunction.
 
-Mitigation strategy: Have backup plans in place such as purchasing data from multiple sources and scheduling satellite passes at different times to increase the chance of obtaining good quality data.
-
+**Mitigation strategy**<br>
+Have backup plans in place such as purchasing data from multiple sources and scheduling satellite passes at different times to increase the chance of obtaining good quality data.
 
 ]
 
 .panel[.panel-name[**Technical**]
 
+**Risk**<br>
 The processing of satellite imagery and the estimation of methane emissions requires advanced technical expertise. 
 
-Mitigation strategy: Ensure that the team members responsible for data processing and analysis are highly skilled and trained in the latest techniques and technologies. This is can be ensured in the recruiting process.
+**Mitigation strategy**<br>
+Ensure that the team members responsible for data processing and analysis are highly skilled and trained in the latest techniques and technologies. This is can be ensured in the recruiting process.
 
 ]
 
 .panel[.panel-name[**Human resources**]
 
+**Risk**<br>
 There may be difficulties in hiring and retaining qualified personnel for the project. The other possibility is human resources terminate the contract before the project ended. The project team might face the risk of losing the resources before the project is completed. This can cause a delay in the project timeline and could lead to additional costs to recruit new resources.
 
-Mitigation strategy: Create a competitive compensation package and offer professional development opportunities to retain top talent.The project manager should ensure that the project team members are committed to the project and have signed a contract to complete the project. The project manager should also maintain open communication with the team members and address any issues or concerns that arise during the project. If a team member needs to be replaced, a contingency plan should be in place to minimize the impact on the project timeline. Additionally, the project manager should identify and document the knowledge and skills of each team member to ensure a smooth transition if a team member needs to be replaced.
+**Mitigation strategy**<br>
+Create a competitive compensation package and offer professional development opportunities to retain top talent.The project manager should ensure that the project team members are committed to the project and have signed a contract to complete the project. The project manager should also maintain open communication with the team members and address any issues or concerns that arise during the project. If a team member needs to be replaced, a contingency plan should be in place to minimize the impact on the project timeline. Additionally, the project manager should identify and document the knowledge and skills of each team member to ensure a smooth transition if a team member needs to be replaced.
 
 ]
 
 .panel[.panel-name[**Operational**]
 
+**Risk**<br>
 There may be issues with the operation of the methane monitoring dashboard such as data transmission failure, software malfunctions or hacking. 
 
-Mitigation strategy: Perform regular maintenance and software updates on the dashboard and implement security measures to prevent unauthorized access.
+**Mitigation strategy**<br>
+Perform regular maintenance and software updates on the dashboard and implement security measures to prevent unauthorized access.
 
 ]
 
 .panel[.panel-name[**Financial**]
 
+**Risk**<br>
 The project budget may exceed the allocated funds due to unforeseen expenses or cost overruns. 
 
-Mitigation strategy: Set aside contingency funds to cover unexpected expenses and regularly monitor project expenses to stay within budget.
+**Mitigation strategy**<br>
+Set aside contingency funds to cover unexpected expenses and regularly monitor project expenses to stay within budget.
 
 ]
 
 .panel[.panel-name[**Stakeholders**]
 
+**Risk**<br>
 There may be disagreements or conflicts with stakeholders on project objectives or implementation strategies. 
 
-Mitigation strategy: Hold regular meetings with stakeholders to ensure transparency and open communication, and be open to feedback and suggestions.
+**Mitigation strategy**<br>
+Hold regular meetings with stakeholders to ensure transparency and open communication, and be open to feedback and suggestions.
 
 ]
 ]
@@ -438,13 +512,14 @@ class: inverse center middle
 .panelset.sideways[
 .panel[.panel-name[**Workflow**]
 
-Put flowchart in this
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/implementation.png')
+```
 
 ]
 
-.panel[.panel-name[**ROI**]
+.panel[.panel-name[**Return on Investment**]
 
-ROI 
 
 ]
 ]
