@@ -137,8 +137,8 @@ Source: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a
 ]
 .pull-right[
 - Issues:
-  - Environmental: air pollution, surface overflow- groundwater and soil contamination.  
-  - Socio-ecnomic: Exposure to toxic environment leading to numerous negative health impacts on 18000 residents living near, social unrest due to irregularities in compensation.
+  - Environmental: air pollution (harmful gas emission), surface overflow- groundwater and soil contamination.  
+  - Socio-economic: Exposure to toxic environment leading to numerous negative health impacts on 18000 residents living near, social unrest due to irregularities in compensation.
 - Current mitigation measure: 5 incineration facilities(different locations in the city)
 - Bantargebang:Proposed Center for waste residue processing
 - Ongoing Initiative: TPST Bantargebang Landfill mining
@@ -177,26 +177,32 @@ Source: <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-in
 - ADIPURA Programme, MoEF (incentive to Municipalities):Environmental Management, Cleanliness and Operation of final disposal site. 
 ]
 
+]
 .panel[.panel-name[Gap]
 .pull-left[
 <img src="img/gap1.png" width="100%"/>
 
 ]
 
+
 .pull-right[
 
 <img src="img/gap2.png" width="100%"/>
 Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">unep</a>
-
 ]
+
+.panel[.panel-name[Our Focus]
+
+- Improving and Reviewing data acquisition and management system
+- Reviewing and improving O&M of landfill
+- Assisting Local governments in relevant decision making
+]
+
 .panel[.panel-name[Impact]
 .pull-center[
 
 <img src="img/stakeholder.png" width="100%"/>
 
-
-
-]
 ]
 ]
 ]
