@@ -67,10 +67,11 @@ class: inverse center middle
 ---
 class: inverse center middle
 
-<img src="img/cover.png" width="70%"/>
+<img src="img/vice.png" width="80%"/>
 
-Source:<a href="https://arnika.org/en/news/the-garbage-mountains-on-the-outskirts-of-jakarta-attract-researchers-is-a-giant-landfill-a-source-of-pollution">arnika</a>
+Source:<a href="https://www.vice.com/en/article/7x54jd/the-worlds-largest-dump-is-in-indonesia-and-its-a-ticking-time-bomb">arnika</a>
 
+Nope! Not the world's....South East Asia's
 ---
 
 ## Context
