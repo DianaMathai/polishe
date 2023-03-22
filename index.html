@@ -52,10 +52,6 @@ class: center middle
 ```
 
 ```
-## Warning: package 'xaringan' was built under R version 4.2.2
-```
-
-```
 ## Warning: package 'xaringanExtra' was built under R version 4.2.2
 ```
 
@@ -316,6 +312,7 @@ Official Jakarta Waste Management Portal &lt;br/&gt; 'e-Monitoring for Bantargeb
 .pull-right[
 ![Official e-Monitoring Portal](img/Jakarta_Portal.png)
 ]
+[Source: Jakarta Waste Management Portal](https://upstdlh.id/tpst/landfill#)
 ]
 
 .panel[.panel-name[Methods]
@@ -326,25 +323,91 @@ Official Jakarta Waste Management Portal &lt;br/&gt; 'e-Monitoring for Bantargeb
 ![](img/data.png)
 ]
 
-.panel[.panel-name[Model]
-**Methane Emission: LandGEM**
+]
+---
+## Methane Emission
 .pull-left[
-This model is based on a first-order biogas generation model that estimates emission rates for each landfill
-- Assumes 75% of biogas is captured and 10% is oxidised 
-- Depends on:
-  1. Annual reported tonnage of waste
-  2. Default biogas yield per unit waste constant
-  3. Kinetic decay constant
+**Input:&lt;br/&gt;**
+1. TROPOMI Methane Product &lt;br/&gt;
+2. GHG-D Methane Data 
 
+**Process:&lt;br/&gt;**
+1. Emission quantification: &lt;br/&gt;
+filtered by methane precision, SWIR cloud fraction, SWIR aerosol optical depth &amp; SWIR albedo 
+
+2. Identify region of interest by oversampling
+
+3. Pinpoint the methane hotspot with GHGSat-D
+
+4. Emission quantification from integrated mass enhancement (IME) calculation
+
+**Output:&lt;br/&gt;**
+1. Emission Map
+2. Total Methane Mass Estimation
 ]
+
 .pull-right[
-![](img/LandGEM.JPG)
-![](img/example_result.JPG)
+![Example of Emission](img/methane_tropomi.JPG)]
+![Example of Emission 2](img/methane_ghg.JPG)]
+[Source: Maasakkers et al., 2022](https://www.science.org/doi/10.1126/sciadv.abn9683)
 ]
+---
+## Surface Temperature
+.pull-left[
+**Input:&lt;br/&gt;**
+1. Landsat 8 thermal infrared band&lt;br/&gt;
+2. Landsat 5 thermal band
+3. SRTM DEM data
+
+**Process:&lt;br/&gt;**
+1. Land Surface Temperature&lt;br/&gt;
+Apply scale factor to convert from Kelvin to Celcius
+
+2. Supervised pixel-based classification&lt;br/&gt;
+  - Google Earth historical images
+  - Technical guidelines 
+3. Reproject DEM data and create contour
+
+**Output:&lt;br/&gt;**
+1. Thermal Map
+2. Land Cover Change Analysis
 ]
 
+.pull-right[
+![Example of LST surrounding landfill](img/lst.JPG)]
+![Example of LC change](img/lc.JPG)]
+]
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+---
+## Surface Temperature
+![Methodology Flowchart](img/st_flowchart.JPG)]
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+---
+## Environmental Monitoring
+.pull-left[
+**Input:&lt;br/&gt;**
+1. Landsat 8 NIR &amp; Red bands&lt;br/&gt;
+2. Landsat 5 NIR &amp; Red bands
+
+**Process:&lt;br/&gt;**
+1. Image clipping
+
+2. Extract indicies with band math
+  - Normalized Difference Vegetation Index
+  - Soil Adjusted Vegetation Index
+  - Modified Soil Adjusted Vegetation Index
+
+**Output:&lt;br/&gt;**
+1. Reclassified image for NDVI, SAVI &amp; MSAVI
+2. Time series analysis on percentage variation of different category
 ]
 
+.pull-right[
+![Example of NDVI analysis](img/ndvi.JPG)]
+![Example of SAVI analysis](img/savi.JPG)]
+![Example of MSAVI analysis](img/msavi.JPG)]
+[Source: Sarker et al., 2022](https://www.banglajol.info/index.php/JES/article/view/57485)
+]
 ---
 class: inverse center middle
 
@@ -355,11 +418,58 @@ class: inverse center middle
 ## Landfill Monitoring Dashboard
 
 The output of this project includes a map of methane emissions from the Bantargebang landfill and an estimation of the total emissions from the site. This information can be used by stakeholders to better understand the extent of the methane emission problem at the landfill and to develop strategies for reducing those emissions.
-.pull-left[
-![Example of Dashboard](img/methane.JPG)]
-.pull-right[
-![Example of Dashboard 2](img/methane.JPG)]]
+
+**Homepage**
+
+&lt;img src="img/initial-page.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+.small[Source:[Global Methane](https://www.globalmethane.org/methane-emissions-data.aspx)
+]
+
 ---
+
+## Landfill Monitoring Dashboard
+
+**Methane Emission Map**
+
+&lt;img src="img/emission-map.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+.small[Source: [Global Methane](https://www.globalmethane.org/methane-emissions-data.aspx)]
+
+---
+
+## Landfill Monitoring Dashboard
+
+**Methane Emission Charts**
+
+&lt;img src="img/site-performance.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+.small[Source: [Global Methane](https://www.globalmethane.org/methane-emissions-data.aspx)]
+
+---
+
+## Landfill Monitoring Dashboard
+
+**Surface Temperature Map**
+
+&lt;img src="img/temperature.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+.small[Source::[Ventusky](https://www.ventusky.com/?p=-6.23;106.99;8&amp;l=temperature-2m)
+]
+
+---
+
+## Landfill Monitoring Dashboard
+
+**Vegetation Health Index**
+
+&lt;img src="img/vegetation.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+.small[Source::[ESRI](https://www.arcgis.com/apps/dashboards/3be2f5f38d494799b3249eb726020d02)
+]
+
+---
+
 
 ## Landfill Monitoring Dashboard
 
@@ -375,6 +485,8 @@ The output of this project includes a map of methane emissions from the Bantarge
 ]
 
 .panel[.panel-name[Utilisation]
+
+&lt;img src="img/utilisation.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 ]
 
@@ -406,30 +518,40 @@ class: inverse center middle
 # Plan
 
 ---
-## Project Plan
 
+
+## Project Plan
 .panelset[
 .panel[.panel-name[**Team**]
 
+- **A Project Manager**
+  -  Oversees a project with good communication skills and knowledge of landfill management
+  
+- **A Senior Analyst**
+ - Responsible for collecting data from various sources, including landfill sites, waste management companies, and government agencies.
 
-
-]
-
-.panel[.panel-name[**Workflow**]
-
-
-
+- **A Software Developer**
+  - Designs and develops landfill dashboards and test dashboard and debug it
+ 
+- **Two GIS Analysts**
+ - Collect and manage geospatial data and perform spatial analysis to identify patterns and trends related to the landfill sites using GIS software
+ 
+- **Stakeholder Engagement Specialist**
+  - Organise capacity building, engage stakeholders and provide project updates
+  
 ]
 
 .panel[.panel-name[**Timeline**]
 
 
+![](img/timeline_edit.png)
 
 ]
 
 .panel[.panel-name[**Value for Money**]
 
-
+In this project we will use open source software and free data. So our budget will be **£278,094** for human resources and **£5,000** for one month capacity building. So the total budget for our project is **£283,094**
+&lt;img src="img/cost.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 ]
 ]
@@ -445,50 +567,61 @@ class: inverse center middle
 .panelset.sideways[
 .panel[.panel-name[**Data acquisition**]
 
-There may be challenges in acquiring reliable satellite data due to poor weather conditions or satellite malfunction. 
+**Risk**&lt;br&gt;
+There may be challenges in acquiring reliable satellite data due to poor weather conditions or satellite malfunction.
 
-Mitigation strategy: Have backup plans in place such as purchasing data from multiple sources and scheduling satellite passes at different times to increase the chance of obtaining good quality data.
-
+**Mitigation strategy**&lt;br&gt;
+Have backup plans in place such as purchasing data from multiple sources and scheduling satellite passes at different times to increase the chance of obtaining good quality data.
 
 ]
 
 .panel[.panel-name[**Technical**]
 
+**Risk**&lt;br&gt;
 The processing of satellite imagery and the estimation of methane emissions requires advanced technical expertise. 
 
-Mitigation strategy: Ensure that the team members responsible for data processing and analysis are highly skilled and trained in the latest techniques and technologies. This is can be ensured in the recruiting process.
+**Mitigation strategy**&lt;br&gt;
+Ensure that the team members responsible for data processing and analysis are highly skilled and trained in the latest techniques and technologies. This is can be ensured in the recruiting process.
 
 ]
 
 .panel[.panel-name[**Human resources**]
 
+**Risk**&lt;br&gt;
 There may be difficulties in hiring and retaining qualified personnel for the project. The other possibility is human resources terminate the contract before the project ended. The project team might face the risk of losing the resources before the project is completed. This can cause a delay in the project timeline and could lead to additional costs to recruit new resources.
 
-Mitigation strategy: Create a competitive compensation package and offer professional development opportunities to retain top talent.The project manager should ensure that the project team members are committed to the project and have signed a contract to complete the project. The project manager should also maintain open communication with the team members and address any issues or concerns that arise during the project. If a team member needs to be replaced, a contingency plan should be in place to minimize the impact on the project timeline. Additionally, the project manager should identify and document the knowledge and skills of each team member to ensure a smooth transition if a team member needs to be replaced.
+**Mitigation strategy**&lt;br&gt;
+Create a competitive compensation package and offer professional development opportunities to retain top talent.The project manager should ensure that the project team members are committed to the project and have signed a contract to complete the project. The project manager should also maintain open communication with the team members and address any issues or concerns that arise during the project. If a team member needs to be replaced, a contingency plan should be in place to minimize the impact on the project timeline. Additionally, the project manager should identify and document the knowledge and skills of each team member to ensure a smooth transition if a team member needs to be replaced.
 
 ]
 
 .panel[.panel-name[**Operational**]
 
+**Risk**&lt;br&gt;
 There may be issues with the operation of the methane monitoring dashboard such as data transmission failure, software malfunctions or hacking. 
 
-Mitigation strategy: Perform regular maintenance and software updates on the dashboard and implement security measures to prevent unauthorized access.
+**Mitigation strategy**&lt;br&gt;
+Perform regular maintenance and software updates on the dashboard and implement security measures to prevent unauthorized access.
 
 ]
 
 .panel[.panel-name[**Financial**]
 
+**Risk**&lt;br&gt;
 The project budget may exceed the allocated funds due to unforeseen expenses or cost overruns. 
 
-Mitigation strategy: Set aside contingency funds to cover unexpected expenses and regularly monitor project expenses to stay within budget.
+**Mitigation strategy**&lt;br&gt;
+Set aside contingency funds to cover unexpected expenses and regularly monitor project expenses to stay within budget.
 
 ]
 
 .panel[.panel-name[**Stakeholders**]
 
+**Risk**&lt;br&gt;
 There may be disagreements or conflicts with stakeholders on project objectives or implementation strategies. 
 
-Mitigation strategy: Hold regular meetings with stakeholders to ensure transparency and open communication, and be open to feedback and suggestions.
+**Mitigation strategy**&lt;br&gt;
+Hold regular meetings with stakeholders to ensure transparency and open communication, and be open to feedback and suggestions.
 
 ]
 ]
@@ -504,13 +637,12 @@ class: inverse center middle
 .panelset.sideways[
 .panel[.panel-name[**Workflow**]
 
-Put flowchart in this
+&lt;img src="img/implementation.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ]
 
-.panel[.panel-name[**ROI**]
+.panel[.panel-name[**Return on Investment**]
 
-ROI 
 
 ]
 ]
