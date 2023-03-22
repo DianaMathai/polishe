@@ -36,7 +36,7 @@ class: center, middle, inverse, title-slide
 ### Diana Mathai, Sohyun Park, Rahmadita Listianingrum, Yuet Yung Lung
 ]
 .date[
-### 2023/03/02 (updated: 2023-03-21)
+### 2023/03/02 (updated: 2023-03-22)
 ]
 
 ---
@@ -45,6 +45,19 @@ class: center middle
 
 
 
+
+
+```
+## Warning: package 'countdown' was built under R version 4.2.2
+```
+
+```
+## Warning: package 'xaringanExtra' was built under R version 4.2.2
+```
+
+```
+## Warning: package 'knitr' was built under R version 4.2.2
+```
 
 <style>.xe__progress-bar__container {
   bottom:0;
@@ -249,6 +262,7 @@ Official Jakarta Waste Management Portal &lt;br/&gt; 'e-Monitoring for Bantargeb
 .pull-right[
 ![Official e-Monitoring Portal](img/Jakarta_Portal.png)
 ]
+[Source: Jakarta Waste Management Portal](https://upstdlh.id/tpst/landfill#)
 ]
 
 .panel[.panel-name[Methods]
@@ -259,25 +273,91 @@ Official Jakarta Waste Management Portal &lt;br/&gt; 'e-Monitoring for Bantargeb
 ![](img/data.png)
 ]
 
-.panel[.panel-name[Model]
-**Methane Emission: LandGEM**
+]
+---
+## Methane Emission
 .pull-left[
-This model is based on a first-order biogas generation model that estimates emission rates for each landfill
-- Assumes 75% of biogas is captured and 10% is oxidised 
-- Depends on:
-  1. Annual reported tonnage of waste
-  2. Default biogas yield per unit waste constant
-  3. Kinetic decay constant
+**Input:&lt;br/&gt;**
+1. TROPOMI Methane Product &lt;br/&gt;
+2. GHG-D Methane Data 
 
+**Process:&lt;br/&gt;**
+1. Emission quantification: &lt;br/&gt;
+filtered by methane precision, SWIR cloud fraction, SWIR aerosol optical depth &amp; SWIR albedo 
+
+2. Identify region of interest by oversampling
+
+3. Pinpoint the methane hotspot with GHGSat-D
+
+4. Emission quantification from integrated mass enhancement (IME) calculation
+
+**Output:&lt;br/&gt;**
+1. Emission Map
+2. Total Methane Mass Estimation
 ]
+
 .pull-right[
-![](img/LandGEM.JPG)
-![](img/example_result.JPG)
+![Example of Emission](img/methane_tropomi.JPG)]
+![Example of Emission 2](img/methane_ghg.JPG)]
+[Source: Maasakkers et al., 2022](https://www.science.org/doi/10.1126/sciadv.abn9683)
 ]
+---
+## Surface Temperature
+.pull-left[
+**Input:&lt;br/&gt;**
+1. Landsat 8 thermal infrared band&lt;br/&gt;
+2. Landsat 5 thermal band
+3. SRTM DEM data
+
+**Process:&lt;br/&gt;**
+1. Land Surface Temperature&lt;br/&gt;
+Apply scale factor to convert from Kelvin to Celcius
+
+2. Supervised pixel-based classification&lt;br/&gt;
+  - Google Earth historical images
+  - Technical guidelines 
+3. Reproject DEM data and create contour
+
+**Output:&lt;br/&gt;**
+1. Thermal Map
+2. Land Cover Change Analysis
 ]
 
+.pull-right[
+![Example of LST surrounding landfill](img/lst.JPG)]
+![Example of LC change](img/lc.JPG)]
+]
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+---
+## Surface Temperature
+![Methodology Flowchart](img/st_flowchart.JPG)]
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+---
+## Environmental Monitoring
+.pull-left[
+**Input:&lt;br/&gt;**
+1. Landsat 8 NIR &amp; Red bands&lt;br/&gt;
+2. Landsat 5 NIR &amp; Red bands
+
+**Process:&lt;br/&gt;**
+1. Image clipping
+
+2. Extract indicies with band math
+  - Normalized Difference Vegetation Index
+  - Soil Adjusted Vegetation Index
+  - Modified Soil Adjusted Vegetation Index
+
+**Output:&lt;br/&gt;**
+1. Reclassified image for NDVI, SAVI &amp; MSAVI
+2. Time series analysis on percentage variation of different category
 ]
 
+.pull-right[
+![Example of NDVI analysis](img/ndvi.JPG)]
+![Example of SAVI analysis](img/savi.JPG)]
+![Example of MSAVI analysis](img/msavi.JPG)]
+[Source: Sarker et al., 2022](https://www.banglajol.info/index.php/JES/article/view/57485)
+]
 ---
 class: inverse center middle
 

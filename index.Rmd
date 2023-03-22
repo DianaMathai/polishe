@@ -240,6 +240,7 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 .pull-right[
 ![Official e-Monitoring Portal](img/Jakarta_Portal.png)
 ]
+[Source: Jakarta Waste Management Portal](https://upstdlh.id/tpst/landfill#)
 ]
 
 .panel[.panel-name[Methods]
@@ -250,25 +251,91 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 ![](img/data.png)
 ]
 
-.panel[.panel-name[Model]
-**Methane Emission: LandGEM**
+]
+---
+## Methane Emission
 .pull-left[
-This model is based on a first-order biogas generation model that estimates emission rates for each landfill
-- Assumes 75% of biogas is captured and 10% is oxidised 
-- Depends on:
-  1. Annual reported tonnage of waste
-  2. Default biogas yield per unit waste constant
-  3. Kinetic decay constant
+**Input:<br/>**
+1. TROPOMI Methane Product <br/>
+2. GHG-D Methane Data 
 
+**Process:<br/>**
+1. Emission quantification: <br/>
+filtered by methane precision, SWIR cloud fraction, SWIR aerosol optical depth & SWIR albedo 
+
+2. Identify region of interest by oversampling
+
+3. Pinpoint the methane hotspot with GHGSat-D
+
+4. Emission quantification from integrated mass enhancement (IME) calculation
+
+**Output:<br/>**
+1. Emission Map
+2. Total Methane Mass Estimation
 ]
+
 .pull-right[
-![](img/LandGEM.JPG)
-![](img/example_result.JPG)
+![Example of Emission](img/methane_tropomi.JPG)]
+![Example of Emission 2](img/methane_ghg.JPG)]
+[Source: Maasakkers et al., 2022](https://www.science.org/doi/10.1126/sciadv.abn9683)
 ]
+---
+## Surface Temperature
+.pull-left[
+**Input:<br/>**
+1. Landsat 8 thermal infrared band<br/>
+2. Landsat 5 thermal band
+3. SRTM DEM data
+
+**Process:<br/>**
+1. Land Surface Temperature<br/>
+Apply scale factor to convert from Kelvin to Celcius
+
+2. Supervised pixel-based classification<br/>
+  - Google Earth historical images
+  - Technical guidelines 
+3. Reproject DEM data and create contour
+
+**Output:<br/>**
+1. Thermal Map
+2. Land Cover Change Analysis
 ]
 
+.pull-right[
+![Example of LST surrounding landfill](img/lst.JPG)]
+![Example of LC change](img/lc.JPG)]
+]
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+---
+## Surface Temperature
+![Methodology Flowchart](img/st_flowchart.JPG)]
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+---
+## Environmental Monitoring
+.pull-left[
+**Input:<br/>**
+1. Landsat 8 NIR & Red bands<br/>
+2. Landsat 5 NIR & Red bands
+
+**Process:<br/>**
+1. Image clipping
+
+2. Extract indicies with band math
+  - Normalized Difference Vegetation Index
+  - Soil Adjusted Vegetation Index
+  - Modified Soil Adjusted Vegetation Index
+
+**Output:<br/>**
+1. Reclassified image for NDVI, SAVI & MSAVI
+2. Time series analysis on percentage variation of different category
 ]
 
+.pull-right[
+![Example of NDVI analysis](img/ndvi.JPG)]
+![Example of SAVI analysis](img/savi.JPG)]
+![Example of MSAVI analysis](img/msavi.JPG)]
+[Source: Sarker et al., 2022](https://www.banglajol.info/index.php/JES/article/view/57485)
+]
 ---
 class: inverse center middle
 
