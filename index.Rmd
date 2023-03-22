@@ -160,15 +160,22 @@ Ref: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a>; 
 .panel[.panel-name[Summary]
 .pull-center[
 - Target of 30% waste reduction and 70% waste handling by 2025
+
 - Indonesia aims to reduce marine plastic litter by 70% relative to business as usual by 2025
+
 - Indonesia committed to reduce greenhouse gas emission by 29% (2030) and 41% (conditional target, with international support) 
 <a href="https://www.oecd.org/ocean/topics/ocean-pollution/marine-plastics-pollution-Indonesia.pdf">OECD</a> <br>
 - Government: enhancement of SWM and Environmental Improvement
-- Focus on waste reduction and management Plan, 'reuse and recycle', 
+
+- Focus on waste reduction and management Plan, 'reuse and recycle'
+
 - Policies emphasise monitoring waste-associated activities (Generation, collection, reduction, disposal, recycling etc.)
+
 - Based on the monitoring of waste-associated activities evaluation step is to be conducted. 
+
 - _Gerakan Pilah Sampah_: waste sorting at source > Circular Economy
-- ADIPURA Programme, MoEF (incentive to Municipalities):Environmental Management, Cleanliness and Operation of final disposal site. 
+
+- **ADIPURA Programme**, MoEF (incentive to Municipalities):Environmental Management, Cleanliness and Operation of final disposal site. 
 
 ]
 .panel[.panel-name[Gap]
@@ -183,7 +190,7 @@ Ref: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a>; 
 Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">unep</a>
 ]
 
-.panel[.panel-name[GHG]
+.panel[.panel-name[GHG-1]
 
 **GHG Emissions from Waste Management, 2015** Source: <a href="file:///C:/Users/diana/Downloads/Waste%20to%20Energy%20Guidebook%20-%20English%20Version%202015%20(9).pdf">WTE</a>
 
@@ -197,7 +204,7 @@ any fires encountered) and **constantly observing the landfill for any signs of 
 Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">unep</a>
 ]
 
-.panel[.panel-name[GHG]
+.panel[.panel-name[GHG-2]
 **Enhanced Nationally Determines Contribution, Republic of Indonesia, 2022** Source: <a href= "https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">ENDC</a>
 
 - The Government of Indonesia (GoI) has ratified the Paris Agreement (PA) and has submitted its commitment to reduce greenhouse gas emissions with an unconditional target of **29%** and conditional target (with international support) of 41% compared to business as usual (BAU) emission levels by **2030**
@@ -211,7 +218,7 @@ Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPW
 <img src="img/chg.png" width="40%"/>
 Source: <a href="https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">unfcc</a>
 ]
-.panel[.panel-name[GHG]
+.panel[.panel-name[GHG-3]
 **Operational Plan Indonesia’s FOLU, 2030** Source: <a href="https://www.menlhk.go.id/uploads/site/post/1647334063.pdf">FOLU2022</a> ; <a href="https://unfccc.int/files/national_reports/non-annex_i_natcom/cge/application/pdf/waste_sector_2016_lesotho.pdf">unfccc</a>
 
 -	MoEF's Geospatial Information Network (JIG) and integrated with the National JIG. This activity includes institutional monitoring in reporting plans and implementation of emission reduction activities and their achievements on a regular basis.
