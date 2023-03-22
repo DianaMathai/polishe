@@ -67,9 +67,9 @@ class: inverse center middle
 ---
 class: inverse center middle
 
-<img src="img/vice.png" width="90%"/>
+<img src="img/cover.png" width="70%"/>
 
-Source:<a href="https://www.vice.com/en/article/7x54jd/the-worlds-largest-dump-is-in-indonesia-and-its-a-ticking-time-bomb">vice</a>
+Source:<a href="https://arnika.org/en/news/the-garbage-mountains-on-the-outskirts-of-jakarta-attract-researchers-is-a-giant-landfill-a-source-of-pollution">arnika</a>
 
 ---
 
@@ -208,7 +208,7 @@ Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPW
 - Greenhouse gas emissions will reach a **peak of 1,240 million tonnes of CO2e by 2030** and then gradually decline to reach 540 million t CO2e in 2050. It is expected that net zero emissions will be achieved by 2060 or earlier
 
 <img src="img/chg.png" width="40%"/>
-Source: <a href="https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">unep</a>
+Source: <a href="https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">unfcc</a>
 ]
 .panel[.panel-name[GHG]
 **Operational Plan Indonesia’s FOLU, 2030** Source: <a href="https://www.menlhk.go.id/uploads/site/post/1647334063.pdf">FOLU2022</a> ; <a href="https://unfccc.int/files/national_reports/non-annex_i_natcom/cge/application/pdf/waste_sector_2016_lesotho.pdf">unfccc</a>
