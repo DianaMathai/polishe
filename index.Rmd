@@ -308,7 +308,8 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 .pull-left[
 **Input:<br/>**
 1. TROPOMI Methane Product <br/>
-2. GHG-D Methane Data 
+2. GHG-D Methane Data<br/>
+3. MethaneSAT Data
 
 **Process:<br/>**
 1. Emission quantification: <br/>
