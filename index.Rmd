@@ -65,15 +65,24 @@ class: inverse center middle
 # Problem Identification
 
 ---
+class: inverse center middle
+
+<img src="img/vice.png" width="90%"/>
+
+Source:<a href="https://www.vice.com/en/article/7x54jd/the-worlds-largest-dump-is-in-indonesia-and-its-a-ticking-time-bomb">vice</a>
+
+---
+
 ## Context
+
 .panelset[
 .panel[.panel-name[Indonesia]
 .pull-left[
 
 <img src="img/overview.png" width="90%"/>
-.left[Source:<a href="https://thedocs.worldbank.org/en/doc/7c9b64c34a8833378194a026ebe4e247-0140022022/related/HCI-AM22-IDN.pdf ">worldbank</a>; <a href=" https://www.worlddata.info/asia/indonesia/index.php#:~:text=INDONESIA%2C%20the%20largest%20archipelago%20in,which%20about%206%2C000%20are%20inhabited. ">worlddata</a> <br> 
-]
+.left[Ref:<a href="https://thedocs.worldbank.org/en/doc/7c9b64c34a8833378194a026ebe4e247-0140022022/related/HCI-AM22-IDN.pdf ">worldbank</a>; <a href=" https://www.worlddata.info/asia/indonesia/index.php#:~:text=INDONESIA%2C%20the%20largest%20archipelago%20in,which%20about%206%2C000%20are%20inhabited. ">worlddata</a> <br> 
 
+]
 ]
 .pull-right[
 <img src="img/Indo.png" width="70%"/>
@@ -81,72 +90,54 @@ class: inverse center middle
  ">burningcompass</a> <br> ]
 
 ]
-
 ]
 .panel[.panel-name[Waste Management]
-.pull-left[
-<img src="img/wastedisposal.png" width="350%" />
-.left[Source: <a href="https://pdf.usaid.gov/pdf_docs/PA00XWPP.pdf
- ">usaid</a> <br> ]
-]
-
-.pull-right[
-- Collection:primarily by Local authorities, Informal sector, Waste Bank and Private collection
-- Total Landfills= 380 nos. (area~ 8200 Ha)
-- Waste Bank (Success story): Satu Hati Waste Bank in West Jakarta, established in April 2017 ( (US$511,736) in profits)
-- MSW managed by Seksi Kebersihan (Cleansing Dept. in each district)
+.pull-middle[
+<img src="img/wastedisposal.png" width="55%" />
+.right[Ref: <a href="https://pdf.usaid.gov/pdf_docs/PA00XWPP.pdf ">usaid</a> <br> ]
 ]
 
 
 .panel[.panel-name[Landfill]
+
 .pull-left[
-<img src="img/Indonesiawaste.png" width="70%"/>
+<img src="img/website.png" width="80%"/>
 
 Source: <a href=" https://sipsn.menlhk.go.id/sipsn/public/data/komposisi">sipsn</a>
 ]
 .pull-right[
-<img src="img/landfill.png" width="250%"/>
+- Collection: primarily by Local authorities, Informal sector, Waste Bank and Private collection
 
-Source: <a href=" https://sipsn.menlhk.go.id/sipsn/">sipsn</a>
+- Total Landfills= 380 nos. (area~ 8200 Ha)
+
+- Waste Bank (Success story): Satu Hati Waste Bank in West Jakarta, established in April 2017 ( (US$511,736) in profits)
+
+- MSW managed by Seksi Kebersihan (Cleansing Dept. in each district)
+
+- Predominant waste type: Food waste and Plastic waste
+
 ]
 
 .panel[.panel-name[Bantargebang Landfill-1]
 .pull-left[
-- Indonesia's Biggest Landfill
-- Location: Jakarta, Bekasi district.
-- Waste generation: 7100 Tonnes/day (Jakarta)
-- Ownership: Jakarta administration
-- Area: 200 acres, Operational : 1989
-- Disposal: 7000 ton (unsorted waste/day), Volume: 39Mn Tons, Height: 40m
-- 3000 families live within its foot print (waste-pickers)
-- Informal Sector livelihood: 1500 waste-pickers 
-- Past project on site: Bantargebang Landfill Gas Management & Power Generation (capture the CH4 rich gas from the landfill to generate electricity)
+<img src="img/Bantar1.png" width="100%"/> 
+
 ]
 .pull-right[
-<img src="img/zone1.1.png" width="90%"/> 
+<img src="img/zone1.1.png" width="100%"/> 
+
 Source: <a href=" https://ijtech.eng.ui.ac.id/article/view/4571 ">ijtech</a>
-- Landfill type: open dumping site, 5 zones, 2 leachate processing installations
-- Catchment: 5 provinces, Jakarta
+
 
 ]
 .panel[.panel-name[Bantargebang Landfill-2]
-.pull-left[
-<img src="img/wastecompo.png" width="60%"/>
 
-Source: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a>
-]
-.pull-right[
-- Issues:
-  - Environmental: air pollution (harmful gas emission), surface overflow- groundwater and soil contamination.  
-  - Socio-economic: Exposure to toxic environment leading to numerous negative health impacts on 18000 residents living near, social unrest due to irregularities in compensation.
-- Current mitigation measure: 5 incineration facilities(different locations in the city)
-- Bantargebang:Proposed Center for waste residue processing
-- Ongoing Initiative: TPST Bantargebang Landfill mining
+<img src="img/issuesofBan.png"/>
 
-Source: <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-indonesia ">ejatlas</a>; <a href=" https://iopscience.iop.org/article/10.1088/1755-1315/940/1/012028/pdf ">iopscience</a>; <a href=" https://upstdlh.id/tpst/landfill ">ejatlas</a>
+Ref: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a>; <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-indonesia ">ejatlas</a>; <a href=" https://iopscience.iop.org/article/10.1088/1755-1315/940/1/012028/pdf ">iopscience</a>; <a href=" https://upstdlh.id/tpst/landfill ">ejatlas</a>
 
 
-]
+
 ]
 ]
 ]
@@ -159,15 +150,17 @@ Source: <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-in
 
 .panelset[
 .panel[.panel-name[Policies]
-.pull-left[
-<img src="img/policies.png" width="500%"/>
-.left[Source: <a href="https://pdf.usaid.gov/pdf_docs/PA00XWPP.pdf">Policies</a>;<a href="https://www.ilo.org/dyn/natlex/natlex4.detail?p_lang=en&p_isn=84427&p_country=IDN&p_count=611">WasteLaw2008</a>;<a href="https://humanrightspapua.org/wp-content/uploads/2021/03/images_docs_Indonesian_Law_32-2009_Environment.pdf ">LawEPM2009</a>;<a href="https://www.global-regulation.com/translation/indonesia/7208771/government-regulation-number-81-in-2012.html ">MHHW2012</a> ;<a href="http://www.vertic.org/media/National%20Legislation/Indonesia/ID_Regulation_Waste_19_1994.pdf">RHWM</a>;<a href="https://faolex.fao.org/docs/pdf/ins137639.pdf ">PRT2013</a>;<a href="https://www.acccrn.net/sites/default/files/publication/attach/ran-api_english_translation.pdf ">RANAPI2015</a>;<a href="https://kkp.go.id/an-component/media/upload-gambar-pendukung/djprl/P4K/Pencemaran%20Laut/Marine%20Debris/03.%20Perpres%20Nomor%2097%20Tahun%202017%20-%20Jakstranas.pdf">NPM</a>;<a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">NPWR2020</a>;<a href="https://drive.esdm.go.id/wl/?id=NMWtlg7uDxwXTf1bDxgrren7d8x6y5Iu&mode=list&download=1 ">WE</a>;<a href="https://unfccc.int/sites/default/files/NDC/2022-09/23.09.2022_Enhanced%20NDC%20Indonesia.pdf ">ENDC2022</a>;<a href="https://www.basel.int/Portals/4/Basel%20Convention/docs/text/BaselConventionText-e.pdf ">Basel2005</a>;<a href="https://jdih.kemendag.go.id/backendx/image/regulasi/22200711_Permendag_No._31_tahun_2016.pdf">wasteImport</a>;<a href="https://documents1.worldbank.org/curated/en/781051510608417715/Environmental-and-social-management-framework.pdf">SWMS2019</a>;<a href="https://drive.google.com/file/d/16WhKUeXjd7LnpiVJADhFtye8w-4G9aHj/view">MoEF2019</a>; <a href="https://www.wwf.id/upload/2023/03/WWF-EPR-Guideline-2022-ENG-final.pdf">EPR2015</a> 
-
-]
+<img src="img/policies.png" width="150%"/>
+.left[Ploicy Ref: <a href="https://pdf.usaid.gov/pdf_docs/PA00XWPP.pdf">Policies</a>;<a href="https://www.ilo.org/dyn/natlex/natlex4.detail?p_lang=en&p_isn=84427&p_country=IDN&p_count=611">WasteLaw2008</a>;<a href="https://humanrightspapua.org/wp-content/uploads/2021/03/images_docs_Indonesian_Law_32-2009_Environment.pdf ">LawEPM2009</a>;<a href="https://www.global-regulation.com/translation/indonesia/7208771/government-regulation-number-81-in-2012.html ">MHHW2012</a>;<a href="http://www.vertic.org/media/National%20Legislation/Indonesia/ID_Regulation_Waste_19_1994.pdf">RHWM</a>;<a href="https://faolex.fao.org/docs/pdf/ins137639.pdf ">PRT2013</a>;<a href="https://www.acccrn.net/sites/default/files/publication/attach/ran-api_english_translation.pdf ">RANAPI2015</a>;<a href="https://kkp.go.id/an-component/media/upload-gambar-pendukung/djprl/P4K/Pencemaran%20Laut/Marine%20Debris/03.%20Perpres%20Nomor%2097%20Tahun%202017%20-%20Jakstranas.pdf">NPM</a>;<a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">NPWR2020</a>;<a href="https://drive.esdm.go.id/wl/?id=NMWtlg7uDxwXTf1bDxgrren7d8x6y5Iu&mode=list&download=1 ">WE</a>;<a href="https://unfccc.int/sites/default/files/NDC/2022-09/23.09.2022_Enhanced%20NDC%20Indonesia.pdf ">ENDC2022</a>;<a href="https://www.basel.int/Portals/4/Basel%20Convention/docs/text/BaselConventionText-e.pdf ">Basel2005</a>;<a href="https://jdih.kemendag.go.id/backendx/image/regulasi/22200711_Permendag_No._31_tahun_2016.pdf">wasteImport</a>;<a href="https://documents1.worldbank.org/curated/en/781051510608417715/Environmental-and-social-management-framework.pdf">SWMS2019</a>;<a href="https://drive.google.com/file/d/16WhKUeXjd7LnpiVJADhFtye8w-4G9aHj/view">MoEF2019</a>; <a href="https://www.wwf.id/upload/2023/03/WWF-EPR-Guideline-2022-ENG-final.pdf">EPR2015</a> 
 ]
 
-.pull-right[
+]
+.panelset[
+.panel[.panel-name[Summary]
+.pull-center[
+- Target of 30% waste reduction and 70% waste handling by 2025
 - Indonesia aims to reduce marine plastic litter by 70% relative to business as usual by 2025
+- Indonesia committed to reduce greenhouse gas emission by 29% (2030) and 41% (conditional target, with international support) 
 <a href="https://www.oecd.org/ocean/topics/ocean-pollution/marine-plastics-pollution-Indonesia.pdf">OECD</a> <br>
 - Government: enhancement of SWM and Environmental Improvement
 - Focus on waste reduction and management Plan, 'reuse and recycle', 
@@ -175,7 +168,6 @@ Source: <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-in
 - Based on the monitoring of waste-associated activities evaluation step is to be conducted. 
 - _Gerakan Pilah Sampah_: waste sorting at source > Circular Economy
 - ADIPURA Programme, MoEF (incentive to Municipalities):Environmental Management, Cleanliness and Operation of final disposal site. 
-]
 
 ]
 .panel[.panel-name[Gap]
@@ -186,23 +178,81 @@ Source: <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-in
 
 
 .pull-right[
-
 <img src="img/gap2.png" width="100%"/>
 Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">unep</a>
 ]
 
-.panel[.panel-name[Our Focus]
+.panel[.panel-name[GHG]
 
-- Improving and Reviewing data acquisition and management system
-- Reviewing and improving O&M of landfill
-- Assisting Local governments in relevant decision making
+**GHG Emissions from Waste Management, 2015** Source: <a href="file:///C:/Users/diana/Downloads/Waste%20to%20Energy%20Guidebook%20-%20English%20Version%202015%20(9).pdf">WTE</a>
+
+- _Coordinator_ : Ministry of Environment and Forestry (MoEF)—Directorate of Waste Management; MSW: Directorate for Waste Management, MoEF and Directorate for Development of Environmental Sanitation and Housing Ministry of Public Works and Housing (MPWH)
+
+- Monitoring waste tipping operations (checking for combustible loads), providing fire-fighting equipment (to quickly extinguish
+any fires encountered) and **constantly observing the landfill for any signs of sub-surface fires** are all good management practices to prevent and control landfill fires and thereby minimise their associated negative impacts.
+
+- Identification of credible LFG WtE projects will therefore **require a significant amount of research and effort to find the landfills with the highest WtE potential**. It should be assumed, therefore, that **full and extensive baseline surveys** will be required.
+
+Source: <a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">unep</a>
 ]
 
-.panel[.panel-name[Impact]
+.panel[.panel-name[GHS]
+**Enhanced Nationally Determines Contribution, Republic of Indonesia, 2022** Source: <a href="https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">ENDC</a>
+
+- The Government of Indonesia (GoI) has ratified the Paris Agreement (PA) and has submitted its commitment to reduce greenhouse gas emissions with an unconditional target of **29%** and conditional target (with international support) of 41% compared to business as usual (BAU) emission levels by **2030**
+
+- Dashboard AFOLU for land-based sector (4.4)
+
+- First Order Decay-FOD (IPCC-2006) and existing regulation for waste sector Challenges.
+
+- Greenhouse gas emissions will reach a **peak of 1,240 million tonnes of CO2e by 2030** and then gradually decline to reach 540 million t CO2e in 2050. It is expected that net zero emissions will be achieved by 2060 or earlier
+
+<img src="img/chg.png" width="40%"/>
+Source: <a href="https://unfccc.int/sites/default/files/NDC/2022-09/ENDC%20Indonesia.pdf">unep</a>
+]
+.panel[.panel-name[GHG]
+**Operational Plan Indonesia’s FOLU, 2030** Source: <a href="https://www.menlhk.go.id/uploads/site/post/1647334063.pdf">FOLU2022</a> ; <a href="https://unfccc.int/files/national_reports/non-annex_i_natcom/cge/application/pdf/waste_sector_2016_lesotho.pdf">unfccc</a>
+
+-	MoEF's Geospatial Information Network (JIG) and integrated with the National JIG. This activity includes institutional monitoring in reporting plans and implementation of emission reduction activities and their achievements on a regular basis.
+
+**Indonesia Third Biennial Update Report- 2022** Source: <a href="https://unfccc.int/sites/default/files/resource/IndonesiaBUR%203_FINAL%20REPORT_2.pdf">unfccc</a> ; 
+
+- MoEF Regulation(ADIPURA) where Cities and Regencies included in the ADIPURA Program also have to report their waste management...The **ADIPURA database**, especially with respect to the MSW generation and management of stream, has been **used to estimate the GHG emissions since 2003**. After 2014, this database was enhanced by the inclusion of **more cities with higher MSW coverage** with at least 80% of the national MSW generated. 
+
+- 2019, GHG emissions from the SWDS amounted to 38,487 (87.9% of total emissions from MSW treatments), open burning was 5,296 Gg CO2e (12.1%), and composting was 2.16 Gg CO2e (0.005%).
+
+- National Registry System for Climate Change (NRS-CC) (web-based system that manages and provides data and information on national mitigation and adaptation activities). In Appendix- 4 (refers to (JAKSTRANAS and ADIPURA database)
+
+]
+
+.panel[.panel-name[FOCUS]
+.pull-center[
+**Portrait of 5 (Five) TPA Utilizing Methane Gas (CH4)** Source: <a href="https://ejurnal.bppt.go.id/index.php/JTL/article/download/437/337/697">bppt</a> ; 
+
+How is CHG measured under ADIPURA data base? (open dumping > predominently no collection and ventilation system)
+
+landfill without gas recovery infrastructure
+- Drilling into the landfill as deep as the thickness of the refuse layer.
+- inflow of gas = Perforated pipe with certain diameter is inserted.
+- The perforated pipe circulated with gravel is performed in order to protect the blocking by refuse particles
+- The gas analyzer used for CH4 , CO2  and O2 measurement (portable)
+
+**Issue with the above approach**
+- No gas recovery infrastructure prepared (open dumpsite)
+- Gas generation fluctuates from one place to another
+- measurement window: 5-10 years
+]
+
+.panel[.panel-name[AIM]
 .pull-center[
 
-<img src="img/stakeholder.png" width="100%"/>
 
+Use Remote sensing as a solution to measure emissions, surface temperature and surrounding vegetation in landfill sites. 
+
+
+]
+]
+]
 ]
 ]
 ]
