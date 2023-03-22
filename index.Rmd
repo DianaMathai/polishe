@@ -92,6 +92,26 @@ Nope! Not the world's....South East Asia's
 
 ]
 ]
+
+.panel[.panel-name[Bantargebang Landfill-1]
+.pull-left[
+<img src="img/Bantar1.png" width="100%"/> 
+
+]
+.pull-right[
+<img src="img/zone1.1.png" width="100%"/> 
+
+Source: <a href=" https://ijtech.eng.ui.ac.id/article/view/4571 ">ijtech</a>
+
+
+]
+.panel[.panel-name[Bantargebang Landfill-2]
+
+<img src="img/issuesofBan.png"/>
+
+Ref: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a>; <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-indonesia ">ejatlas</a>; <a href=" https://iopscience.iop.org/article/10.1088/1755-1315/940/1/012028/pdf ">iopscience</a>; <a href=" https://upstdlh.id/tpst/landfill ">ejatlas</a>
+
+]
 .panel[.panel-name[Waste Management]
 .pull-middle[
 <img src="img/wastedisposal.png" width="55%" />
@@ -116,26 +136,6 @@ Source: <a href=" https://sipsn.menlhk.go.id/sipsn/public/data/komposisi">sipsn<
 - MSW managed by Seksi Kebersihan (Cleansing Dept. in each district)
 
 - Predominant waste type: Food waste and Plastic waste
-
-]
-
-.panel[.panel-name[Bantargebang Landfill-1]
-.pull-left[
-<img src="img/Bantar1.png" width="100%"/> 
-
-]
-.pull-right[
-<img src="img/zone1.1.png" width="100%"/> 
-
-Source: <a href=" https://ijtech.eng.ui.ac.id/article/view/4571 ">ijtech</a>
-
-
-]
-.panel[.panel-name[Bantargebang Landfill-2]
-
-<img src="img/issuesofBan.png"/>
-
-Ref: <a href=" https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9325652/">ncbi</a>; <a href=" https://ejatlas.org/conflict/bantar-gebang-jakarta-landfill-indonesia ">ejatlas</a>; <a href=" https://iopscience.iop.org/article/10.1088/1755-1315/940/1/012028/pdf ">iopscience</a>; <a href=" https://upstdlh.id/tpst/landfill ">ejatlas</a>
 
 
 
