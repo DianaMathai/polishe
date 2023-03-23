@@ -379,6 +379,15 @@ knitr::include_graphics('img/lc.JPG')
 ]
 
 ---
+## Surface Temperature
+
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics('img/st_flowchart.JPG')
+```
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+]
+---
+
 ## Environmental Monitoring
 .pull-left[
 **Input:<br/>**
