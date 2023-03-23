@@ -282,8 +282,8 @@ xaringanExtra::use_panelset()
 .pull-left[
 **Objective<br/>**
 - Monthly monitoring on the emission and surface temperature of Bantargebang Landfill
+- Monthly land cover change analysis to monitor Bantargebang Landfill extent 
 - Monthly environmental impact assessment at and around the landfill site
-- Effective dissemination of information on the latest situation
 
 
 **Website<br/>**
@@ -320,7 +320,7 @@ Official Jakarta Waste Management Portal <br/> 'e-Monitoring for Bantargebang La
 
 **Process:<br/>**
 1. Emission quantification: <br/>
-filtered by methane precision, SWIR cloud fraction, SWIR aerosol optical depth & SWIR albedo 
+filtered by methane precision, SWIR cloud fraction, aerosol optical depth & albedo 
 
 2. Identify region of interest by oversampling
 
@@ -348,7 +348,7 @@ filtered by methane precision, SWIR cloud fraction, SWIR aerosol optical depth &
 
 **Process:<br/>**
 1. Land Surface Temperature<br/>
-Apply scale factor to convert from Kelvin to Celcius
+Apply scale factor (Kelvin to Celcius)
 
 2. Supervised pixel-based classification<br/>
   - Google Earth historical images
