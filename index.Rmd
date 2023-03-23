@@ -152,7 +152,7 @@ Source: <a href=" https://sipsn.menlhk.go.id/sipsn/public/data/komposisi">sipsn<
 .panelset[
 .panel[.panel-name[Policies]
 <img src="img/policies.png" width="150%"/>
-.left[Ploicy Ref: <a href="https://pdf.usaid.gov/pdf_docs/PA00XWPP.pdf">Policies</a>;<a href="https://www.ilo.org/dyn/natlex/natlex4.detail?p_lang=en&p_isn=84427&p_country=IDN&p_count=611">WasteLaw2008</a>;<a href="https://humanrightspapua.org/wp-content/uploads/2021/03/images_docs_Indonesian_Law_32-2009_Environment.pdf ">LawEPM2009</a>;<a href="https://www.global-regulation.com/translation/indonesia/7208771/government-regulation-number-81-in-2012.html ">MHHW2012</a>;<a href="http://www.vertic.org/media/National%20Legislation/Indonesia/ID_Regulation_Waste_19_1994.pdf">RHWM</a>;<a href="https://faolex.fao.org/docs/pdf/ins137639.pdf ">PRT2013</a>;<a href="https://www.acccrn.net/sites/default/files/publication/attach/ran-api_english_translation.pdf ">RANAPI2015</a>;<a href="https://kkp.go.id/an-component/media/upload-gambar-pendukung/djprl/P4K/Pencemaran%20Laut/Marine%20Debris/03.%20Perpres%20Nomor%2097%20Tahun%202017%20-%20Jakstranas.pdf">NPM</a>;<a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">NPWR2020</a>;<a href="https://drive.esdm.go.id/wl/?id=NMWtlg7uDxwXTf1bDxgrren7d8x6y5Iu&mode=list&download=1 ">WE</a>;<a href="https://unfccc.int/sites/default/files/NDC/2022-09/23.09.2022_Enhanced%20NDC%20Indonesia.pdf ">ENDC2022</a>;<a href="https://www.basel.int/Portals/4/Basel%20Convention/docs/text/BaselConventionText-e.pdf ">Basel2005</a>;<a href="https://jdih.kemendag.go.id/backendx/image/regulasi/22200711_Permendag_No._31_tahun_2016.pdf">wasteImport</a>;<a href="https://documents1.worldbank.org/curated/en/781051510608417715/Environmental-and-social-management-framework.pdf">SWMS2019</a>;<a href="https://drive.google.com/file/d/16WhKUeXjd7LnpiVJADhFtye8w-4G9aHj/view">MoEF2019</a>; <a href="https://www.wwf.id/upload/2023/03/WWF-EPR-Guideline-2022-ENG-final.pdf">EPR2015</a> 
+.left[Policy Ref: <a href="https://pdf.usaid.gov/pdf_docs/PA00XWPP.pdf">Policies</a>;<a href="https://www.ilo.org/dyn/natlex/natlex4.detail?p_lang=en&p_isn=84427&p_country=IDN&p_count=611">WasteLaw2008</a>;<a href="https://humanrightspapua.org/wp-content/uploads/2021/03/images_docs_Indonesian_Law_32-2009_Environment.pdf ">LawEPM2009</a>;<a href="https://www.global-regulation.com/translation/indonesia/7208771/government-regulation-number-81-in-2012.html ">MHHW2012</a>;<a href="http://www.vertic.org/media/National%20Legislation/Indonesia/ID_Regulation_Waste_19_1994.pdf">RHWM</a>;<a href="https://faolex.fao.org/docs/pdf/ins137639.pdf ">PRT2013</a>;<a href="https://www.acccrn.net/sites/default/files/publication/attach/ran-api_english_translation.pdf ">RANAPI2015</a>;<a href="https://kkp.go.id/an-component/media/upload-gambar-pendukung/djprl/P4K/Pencemaran%20Laut/Marine%20Debris/03.%20Perpres%20Nomor%2097%20Tahun%202017%20-%20Jakstranas.pdf">NPM</a>;<a href="https://wedocs.unep.org/bitstream/handle/20.500.11822/32898/NPWRSI.pdf?sequence=1&isAllowed=y ">NPWR2020</a>;<a href="https://drive.esdm.go.id/wl/?id=NMWtlg7uDxwXTf1bDxgrren7d8x6y5Iu&mode=list&download=1 ">WE</a>;<a href="https://unfccc.int/sites/default/files/NDC/2022-09/23.09.2022_Enhanced%20NDC%20Indonesia.pdf ">ENDC2022</a>;<a href="https://www.basel.int/Portals/4/Basel%20Convention/docs/text/BaselConventionText-e.pdf ">Basel2005</a>;<a href="https://jdih.kemendag.go.id/backendx/image/regulasi/22200711_Permendag_No._31_tahun_2016.pdf">wasteImport</a>;<a href="https://documents1.worldbank.org/curated/en/781051510608417715/Environmental-and-social-management-framework.pdf">SWMS2019</a>;<a href="https://drive.google.com/file/d/16WhKUeXjd7LnpiVJADhFtye8w-4G9aHj/view">MoEF2019</a>; <a href="https://www.wwf.id/upload/2023/03/WWF-EPR-Guideline-2022-ENG-final.pdf">EPR2015</a> 
 ]
 
 ]
@@ -255,7 +255,7 @@ landfill without gas recovery infrastructure
 .pull-center[
 
 
-Use Remote sensing as a solution to measure emissions, surface temperature and surrounding vegetation in landfill sites. 
+Use Remote sensing as a solution to improve ADIPURA database monitoring system.
 
 
 ]
@@ -334,8 +334,14 @@ filtered by methane precision, SWIR cloud fraction, aerosol optical depth & albe
 ]
 
 .pull-right[
-![Example of Emission](img/methane_tropomi.JPG)]
-![Example of Emission 2](img/methane_ghg.JPG)]
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/methane_tropomi.JPG')
+```
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/methane_ghg.JPG')
+```
 [Source: Maasakkers et al., 2022](https://www.science.org/doi/10.1126/sciadv.abn9683)
 ]
 ---
@@ -361,14 +367,17 @@ Apply scale factor (Kelvin to Celcius)
 ]
 
 .pull-right[
-![Example of LST surrounding landfill](img/lst.JPG)]
-![Example of LC change](img/lc.JPG)]
+
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics('img/lst.JPG')
+```
+
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics('img/lc.JPG')
+```
+[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
 ]
-[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
----
-## Surface Temperature
-![Methodology Flowchart](img/st_flowchart.JPG)]
-[Source: Hanami et al., 2022](https://iopscience.iop.org/article/10.1088/1755-1315/1117/1/012055/meta)
+
 ---
 ## Environmental Monitoring
 .pull-left[
@@ -390,9 +399,18 @@ Apply scale factor (Kelvin to Celcius)
 ]
 
 .pull-right[
-![Example of NDVI analysis](img/ndvi.JPG)]
-![Example of SAVI analysis](img/savi.JPG)]
-![Example of MSAVI analysis](img/msavi.JPG)]
+
+```{r echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics('img/ndvi.JPG')
+```
+
+```{r echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics('img/savi.JPG')
+```
+
+```{r echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics('img/msavi.JPG')
+```
 [Source: Sarker et al., 2022](https://www.banglajol.info/index.php/JES/article/view/57485)
 ]
 ---
@@ -491,11 +509,9 @@ knitr::include_graphics('img/utilisation.png')
 
 .panel[.panel-name[Limitations]
 
-1. **Limited availability of satellite imagery**<br>The project heavily relies on the availability of satellite imagery to monitor methane emissions from the landfill. However, cloud cover and other atmospheric conditions can impact the quality and availability of satellite imagery, which can limit the accuracy of the methane emission estimates.
+1. **Temporal resolution**<br>The project relies on satellite imagery with limited temporal resolution. Frequent updates are needed to accurately monitor methane emissions from landfills, and more frequent satellite imagery could provide more accurate and up-to-date estimates.
 
-2. **Limited temporal resolution**<br>The project relies on satellite imagery with limited temporal resolution. Frequent updates are needed to accurately monitor methane emissions from landfills, and more frequent satellite imagery could provide more accurate and up-to-date estimates.
-
-3. **Limited spatial resolution**<br>The spatial resolution of satellite imagery can also limit the accuracy of methane emission estimates, especially in cases where methane emissions are highly localized. Other resources such as aerial imagery which has very high spatial resolution can be added in the future works.
+3. **Additional data for validation**<br>Ground monitoring tools and airborne imagery can help validate the methane emission.
 
 ]
 
@@ -547,10 +563,10 @@ class: inverse center middle
 
 ]
 
-.panel[.panel-name[**Value for Money**]
+.panel[.panel-name[**Budget**]
 
-In this project we will use open source software and free data. So our budget will be **£278,094** for human resources and **£5,000** for one month capacity building. So the total budget for our project is **£283,094**
-```{r echo=FALSE, out.width='80%', fig.align='center'}
+In this project we will use open source software and free data (except GHGSat-D.  So the total budget for our project is:
+```{r echo=FALSE, out.width='50%', fig.align='center'}
 knitr::include_graphics('img/cost.png')
 ```
 
@@ -646,6 +662,20 @@ knitr::include_graphics('img/implementation.png')
 
 .panel[.panel-name[**Return on Investment**]
 
+Assumption:<br>
+1. Assume a conservative estimate of a 20% reduction in methane emissions due to the implementation of this project<br>
+2. According to a study by the Environmental Defense Fund, the global social cost of methane emissions is estimated to be $1,050 per ton of methane in 2020. Let's convert this to GBP using an exchange rate of 1 USD = 0.73 GBP, which gives us a social cost of methane emissions of approximately 768 GBP per ton.<br>
+3. Assume that the current methane emissions at the landfill are 20,000 tons per year.<br>
+4. Due to the implementation of this project would result in a reduction of 4,000 tons of methane emissions per year.<br>
+5. The value of the reduced methane emissions can be calculated by multiplying the reduction in emissions (4,000 tons per year) by the social cost of methane emissions (768 GBP per ton). This gives us a value of 3,072,000 GBP per year.<br>
+6. The total investment for this project is 500,000 GBP. Let's assume a project lifespan of 5 years. The total return on investment (ROI) for the project can be calculated as follows:<br>
+ROI = (Value of Reduced Methane Emissions * Project Lifespan) - Project Cost ROI 
+ROI = (3,072,000 GBP/year * 5 years) - 300,000 GBP ROI = 13,560,000 GBP
 
 ]
 ]
+
+---
+class: inverse center middle
+
+Thank you
